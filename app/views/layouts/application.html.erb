@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Afx</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<table width="95%" border="0">
+  <tr>
+    <td height="94"> <a href="home"><%= image_tag "bar.jpg", :style => "width: 107px; height: 93px;" %> </a>
+    </td>
+    <a href="home">
+      <td valign="bottom" height="94"> <div align="right"><%= image_tag "title-alphafep.gif", :style => "width: 323px; height: 48px;" %> </div>
+      </td>
+    </a>
+  </tr>
+</table>
+<hr>
+
+<body>
+
+<%= yield %>
+
+</body>
+</html>
